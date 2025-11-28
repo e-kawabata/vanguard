@@ -1,7 +1,9 @@
-/* CSS BY YOUR NAME */
+/* CSS BY Liz Kawabata */
 
 /* IMPORTED FONTS*/
-/* IMPORT "INTER" FROM GOOGLE FONTS"
+/* IMPORT "INTER" FROM GOOGLE FONTS" */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -64,7 +66,17 @@ table {
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 
+body {
+    min-width: 400px;
+    max-width: 450px;
+    background-color: var(--charcoal);
+    font-family: var(--font);
+    color: var(--white);
+    margin: 0 auto;
+}
+
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
+
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
 .container {
